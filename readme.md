@@ -92,9 +92,7 @@ Berikut adalah langkah-langkah untuk menginstal dan menjalankan aplikasi ini di 
 
 * `application/`: Berisi semua kode aplikasi Anda (controllers, models, views, config, libraries, helpers).
 * `system/`: Berisi inti (core) dari framework CodeIgniter 3. Sebaiknya jangan diubah.
-* `assets/` (atau `public/`): Berisi file-file statis seperti CSS, JavaScript, gambar, dll. (Struktur ini bisa bervariasi).
 * `vendor/`: Berisi dependensi yang diinstal oleh Composer (jika digunakan).
-* `user_guide/`: Dokumentasi resmi CodeIgniter 3 (opsional).
 
 ## Teknologi yang Digunakan
 
@@ -102,8 +100,8 @@ Berikut adalah langkah-langkah untuk menginstal dan menjalankan aplikasi ini di 
 * CodeIgniter 3 Framework
 * MySQL / MariaDB
 * HTML
-* CSS (Mungkin menggunakan Bootstrap, Tailwind CSS, atau lainnya - sebutkan jika ada)
-* JavaScript (Mungkin menggunakan jQuery atau framework JS lainnya - sebutkan jika ada)
+* CSS (Tailwind CDN)
+* JavaScript (Jquery, Alpine JS,)
 
 ## Kontribusi
 
