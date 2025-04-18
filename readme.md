@@ -113,16 +113,4 @@ Jika Anda ingin berkontribusi pada pengembangan aplikasi ini, silakan ikuti lang
 5.  Push ke branch Anda (`git push origin fitur-baru`).
 6.  Buat Pull Request baru.
 
-## Lisensi
-
-(Sebutkan lisensi yang Anda gunakan untuk proyek ini, contoh: MIT License, Apache License 2.0, atau lisensi kustom). Jika tidak ada, Anda bisa menulis "Hak Cipta [Tahun] [Nama Anda/Organisasi Anda]. Hak cipta dilindungi undang-undang."
-
 ---
-
-**Catatan:**
-* Ganti semua teks yang ada di dalam kurung siku `[` dan `]` dengan informasi yang sesuai dengan proyek Anda.
-* Tambahkan atau hapus bagian sesuai dengan relevansi dan fitur aplikasi Anda.
-* Pastikan file `database.sql` (atau nama lainnya) memang ada dan berisi struktur database yang benar.
-* Jika ada langkah konfigurasi tambahan (misalnya: pengaturan API key, konfigurasi email), jangan lupa menambahkannya di bagian Instalasi.
-
-Semoga README ini membantu!
