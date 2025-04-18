@@ -1,0 +1,19 @@
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteBase /manajemen_karyawan/
+
+    # Block access to system and application directories
+    RewriteRule ^(system|application) - [F,L]
+
+    # If the requested file or directory exists, serve it directly
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+
+    # Rewrite all other URLs to index.php/URL
+    RewriteRule ^(.*)$ index.php/$1 [L]
+</IfModule>
+
+<IfModule !mod_rewrite.c>
+    # If mod_rewrite is not available, display a warning
+    ErrorDocument 404 /index.php
+</IfModule>
